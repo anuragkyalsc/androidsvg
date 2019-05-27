@@ -25,7 +25,8 @@ public class MainActivity extends BaseActivity
       setContentView(R.layout.activity_main);
       initNavigationDrawer();
 
-      setContentFragment(new MainFragment());
+      //setContentFragment(new MainFragment());
+      setContentFragment(new RenderToImageFragment());
    }
 
 
